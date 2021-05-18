@@ -21,7 +21,7 @@ public class NotificationService {
         try {
             TimeUnit.SECONDS.sleep(args);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            log.error(e.getMessage());
         }
     }
 }
